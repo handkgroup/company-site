@@ -1,0 +1,19 @@
+.blog_title_pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.blog_title_pic h1,
+.blog_title_pic img {
+    width: 100%; 
+    box-sizing: border-box;
+    max-width: 1020px;
+    text-align: left;
+}
+
+.blog_title_pic h1{
+    margin-bottom: 2rem;
+}
